@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(192, 192, 192);
+  position: fixed;
+  overflow: auto;
+}
+
+.nav ul {
+  list-style: none;
+  height: 100%;
+}
+
+.nav div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation:hover {
+  background-color: grey;
+}
+
+/* creates nav-bar for my web */
