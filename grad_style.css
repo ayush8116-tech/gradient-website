@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 .nav {
   width: 20%;
   height: 100vh;
@@ -32,4 +33,30 @@
 
 .navigation:hover {
   background-color: grey;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.grad-frame {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 20%;
+  height: 100vh;
+}
+
+.grad-container {
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+}
+
+#deep-ocean:hover {
+  color: hsl(234 21% 66% / 1);
+  background-image: linear-gradient(blue, black);
 }
